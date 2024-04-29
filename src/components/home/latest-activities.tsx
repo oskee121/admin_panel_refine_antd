@@ -90,7 +90,7 @@ const LatestActivities = () => {
       ) : (
         <List
           itemLayout="horizontal"
-          dataSource={audits.data}
+          dataSource={audits?.data}
           renderItem={(item) => {
             const deal =
               deals?.data.find((deal) => {
